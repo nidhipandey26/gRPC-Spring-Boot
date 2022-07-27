@@ -41,6 +41,7 @@ grpc:
 For testing the application we have used Bloomrpc tool.In the tool we have to upload the proto files and the tool will configure the request body.
 When we requst for getting a user the grpc framwework will call the getUser method which is defined in the proto file as **rpc getUsers(User) returns (User){}**
 rpc  stands for remote procedure call.
+You can download Bloomrpc using this link  https://github.com/bloomrpc/bloomrpc/releases 
 
 **Steps to run the project:**
 
