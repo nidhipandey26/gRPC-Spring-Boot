@@ -21,11 +21,7 @@ public class UserController {
     public void createUser(Userservice.UserReq user) {
       apiService.createUser(user);
     }
-
-//    @PostMapping("/saveAll")
-//    public List<User> saveUsers(@RequestBody List<User> users) {
-//        return userService.saveOrUpdateUsers(users);
-//    }
+}
 
     @PutMapping("/update")
     public void updateUser(Userservice.UserReq userReq){
