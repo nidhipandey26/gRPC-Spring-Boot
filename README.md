@@ -52,6 +52,17 @@ Click on BloomRPC-Setup-1.5.3.exe and download
 
 After download click on install.
 
+**Database**
+
+1.Before running the project pl configure mysql database in your system.
+
+2.https://www.mysql.com/downloads/ refer the link for downloading mysql.
+
+3.Open mysql workbennch and execute below command:
+  CREATE SCHEMA `<db-name>` ;
+  
+
+4.Now go to gRPC-Spring-Boot-main\gRPC-Spring-Boot-main\ForGRPC\common\common\user-service\src\main\resources\application.yml file and add your username and password
 
 **Steps to run the project:**
 
